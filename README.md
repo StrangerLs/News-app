@@ -51,7 +51,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - use news API to get info on whatever news topic the user searches
 - clickable link, image and title of news articles to send user to source. 
-- html and css layout similar to mockup.
+- html and css layout similar to mockup with responsive design.
 
 
 #### PostMVP  
