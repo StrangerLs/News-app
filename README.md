@@ -17,7 +17,7 @@ This app will pull information from News API and return top articles from around
 ## API and Data Sample 
 
 https://newsapi.org/
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+
 
 ```json
 {
