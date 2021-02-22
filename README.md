@@ -11,13 +11,33 @@ Moschetti News Page!
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
 This app will pull information from News API and return top articles from around the world based on users input. ie... if you type in donald trump it will pull up top news articles about him from around the world. The app will then append the news articles to the dom and enable you to open them within the same page. 
 
 ## API and Data Sample 
 
-
+https://newsapi.org/
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+
+```json
+{
+	"status": "ok",
+	"totalResults": 10097,
+	-"articles": [
+	-{
+	-"source": {
+		"id": null,
+		"name": "CNBC"
+	},
+	"author": "Jessica Bursztynsky",
+	"title": "Tesla stock suffers biggest fall since September 2020",
+	"description": "Shares of Tesla closed down 8.55% on Monday, as investors betting on a pandemic comeback rotated out Big Tech and piled into cyclical stocks.",
+	"url": "https://www.cnbc.com/2021/02/22/tesla-stock-suffers-biggest-fall-since-september-2020.html",
+	"urlToImage": "https://image.cnbcfm.com/api/v1/image/106836981-1612792405141-gettyimages-1192506052-xxjpbee007346_20200107_pepfn0a001.jpg?v=1612792421",
+	"publishedAt": "2021-02-22T21:25:23Z",
+	"content": "Shares of Tesla closed down 8.55% on Monday, as investors betting on a pandemic comeback rotated out Big Tech and piled into cyclical stocks.\r\nIt's Tesla's biggest drop since Sept. 23, 2020, when it … [+934 chars]"
+},
+```
 
 ## Wireframes
 [My wireframe]{}
