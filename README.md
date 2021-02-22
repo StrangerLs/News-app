@@ -12,7 +12,7 @@ Moschetti News Page!
 ## Project Description
 
 
-This app will pull information from News API and return multiple top articles from around the world based on users input. ie... if you type in donald trump it will pull up top news articles about him from around the world. The app will then append the news articles to the dom and enable you to open them within the same page. 
+This app will pull information from News API and return and appenend titles, images, and links, from multiple news sources around the world based on users input via a list. ie... if you type in donald trump it will pull up top news articles about him from around the world. The app will then append the news articles to the dom and enable you to open them within the same page. 
 
 ## API and Data Sample 
 
