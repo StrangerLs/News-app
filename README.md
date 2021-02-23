@@ -57,7 +57,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add filter functionality to filter by news source 
+- Add filter functionality to filter by news source, language
 - Css animations for articles
 
 ## Project Schedule
