@@ -58,7 +58,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 *These are examples only. Replace with your own Post-MVP features.*
 
 - Add filter functionality to filter by news source 
-- Use local storage to save user favorites
+- Css animations for articles
 
 ## Project Schedule
 
@@ -77,6 +77,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
+
+https://lucid.app/lucidchart/e7d73d31-4174-4f8c-8d5b-462167700223/edit?page=0_0#
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
