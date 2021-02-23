@@ -14,7 +14,9 @@ This app will pull information from News API and return and appenend titles, ima
 ## API and Data Sample 
 
 https://newsapi.org/
+
 API sample of below code snippet. 
+
 http://newsapi.org/v2/top-headlines?q=tesla&from=2021-02-22&sortBy=publishedAt&apiKey=590e2f3ad3a7403499ccbcd8a5986d5f
 
 
