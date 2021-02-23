@@ -22,7 +22,9 @@ newsWorks('tesla')
 
 
 // get user input from input box
+function showNews(data) {
 
+};
 
 
 
@@ -30,7 +32,10 @@ newsWorks('tesla')
 
 
 
-// image request 
+// removing info
+removeNews() {
+
+};
 
 
 

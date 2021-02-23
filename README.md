@@ -76,10 +76,10 @@ https://lucid.app/lucidchart/invitations/accept/cb5ad854-eb3e-483f-8e07-7d86ccb4
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML making for app page| H | 2hr | blank | blank |
+| HTML making for app page| H | 2hr | 2hrs | 2hrs |
 | HTML for about me page | H | 1hrs | blank | blank |
 | JS psuedo coding | H | 3hr | blank | blank |
-| axios function | H | 4hrs | blank | blank |
+| axios function | H | 4hrs | 3.5hrs | 3.5hrs |
 | API testing/Pathway verification(dev tools) | H | 2hrs | blank | blank |
 | Button/Search functionality within JS | H | 5hrs | blank | blank |
 | Appending DOM elements | H | 5hrs | blank | blank |
