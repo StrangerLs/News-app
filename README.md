@@ -57,10 +57,10 @@ https://wireframe.cc/wDWRV8
 |---|---| ---|
 |Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |Feb 23| Project Approval | Incomplete
-|Feb 23| HTML setup/axios set up | Incomplete
-|Feb 24| Pseudocode / actual code | Incomplete
-|Feb 25| finish functionality (Javasctipt) | Incomplete
-|Feb 26| MVP | Incomplete
+|Feb 23| pseudo code /HTML setup / axios function setup and test | Incomplete
+|Feb 24| Button functionality / User input functionality | Incomplete
+|Feb 25| DOM elements appended / CSS styling Header/footer | Incomplete
+|Feb 26| CSS styling list elements / MVP| Incomplete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
