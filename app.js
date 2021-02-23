@@ -7,24 +7,28 @@ const standardUrl = `${DOMAIN}v2/top-headlines?apiKey=${apiKey}`
 
 // Async function/axios 
 async function newsWorks(value) {
-  let news = `${standardUrl}&q=${value}`
+  let news = `${standardUrl}&q=${value}`;
   
 
   try {
-    let response = await axios.get(news)
-    console.log(response);
+    let response = await axios.get(news);
+    // console.log(response.data.articles);
+
+    for (let i = 0; i < response.data.articles.length; i++) {
+      console.log(response.data.articles[i]);
+    }
     return response;
   } catch (err) {
     console.error(err);
   }
-}
+};
 newsWorks('tesla')
 
 
 // get user input from input box
-function showNews(data) {
+// function showNews(data) {
 
-};
+// };
 
 
 
@@ -33,9 +37,9 @@ function showNews(data) {
 
 
 // removing info
-removeNews() {
+// removeNews() {
 
-};
+// };
 
 
 
