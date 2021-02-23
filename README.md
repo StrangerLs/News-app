@@ -9,31 +9,30 @@ Moschetti News Page!
 ## App Description
 
 
-This app will pull information from News API and return and appenend titles, images, and links, from multiple news sources around the world based on users input via a list. ie... if you type in donald trump it will pull up top news articles about him from around the world. The app will then append the news articles to the dom and enable you to open them within the same page. 
+This app will pull information from News API and return and appenend titles, images, and links, from multiple news sources around the world based on users input via a list. ie... if you type in donald trump it will pull up top news articles about him from around the world. The app will then append the news articles to the DOM and enable you to open them within the same page. 
 
 ## API and Data Sample 
 
 https://newsapi.org/
+API sample of below code snippet. 
+http://newsapi.org/v2/top-headlines?q=tesla&from=2021-02-22&sortBy=publishedAt&apiKey=590e2f3ad3a7403499ccbcd8a5986d5f
 
 
 ```json
-{
-	"status": "ok",
-	"totalResults": 10097,
-	-"articles": [
-	-{
-	-"source": {
-		"id": null,
-		"name": "CNBC"
-	},
-	"author": "Jessica Bursztynsky",
-	"title": "Tesla stock suffers biggest fall since September 2020",
-	"description": "Shares of Tesla closed down 8.55% on Monday, as investors betting on a pandemic comeback rotated out Big Tech and piled into cyclical stocks.",
-	"url": "https://www.cnbc.com/2021/02/22/tesla-stock-suffers-biggest-fall-since-september-2020.html",
-	"urlToImage": "https://image.cnbcfm.com/api/v1/image/106836981-1612792405141-gettyimages-1192506052-xxjpbee007346_20200107_pepfn0a001.jpg?v=1612792421",
-	"publishedAt": "2021-02-22T21:25:23Z",
-	"content": "Shares of Tesla closed down 8.55% on Monday, as investors betting on a pandemic comeback rotated out Big Tech and piled into cyclical stocks.\r\nIt's Tesla's biggest drop since Sept. 23, 2020, when it … [+934 chars]"
-},
+"articles": [
+        {
+            "source": {
+                "id": "the-next-web",
+                "name": "The Next Web"
+            },
+            "author": "Thomas Macaulay",
+            "title": "Elon Musk loses title of world’s richest person to Bezos after more Twitter drama",
+            "description": "Elon Musk’s epic four-day stint at the peak of global wealth has come to a tragic end after the tycoon’s itchy Twitter finger triggered more financial upheaval. Musk lost $15 billion from his net worth in a single day after Tesla shares tumbled 8.6% on Monday…",
+            "url": "https://thenextweb.com/hardfork/2021/02/23/elon-musk-loses-title-of-worlds-richest-person-to-bezos-after-more-twitter-drama/",
+            "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F02%2FUntitled-design-6.png&signature=e6fbe5f4e75661fb5dbd1b7533cf1001",
+            "publishedAt": "2021-02-23T14:13:56Z",
+            "content": "Elon Musks epic four-day stint at the peak of global wealth has come to a tragic end after the tycoons itchy Twitter finger triggered more financial upheaval.\r\nMusk lost $15 billion from his net wort… [+1529 chars]"
+        },
 ```
 
 ## Wireframes
