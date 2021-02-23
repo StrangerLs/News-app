@@ -66,7 +66,7 @@ https://wireframe.cc/wDWRV8
 
 ## Priority Matrix
 
-https://lucid.app/lucidchart/e7d73d31-4174-4f8c-8d5b-462167700223/edit?page=0_0#
+https://lucid.app/lucidchart/invitations/accept/cb5ad854-eb3e-483f-8e07-7d86ccb4d1a3
 
 
 ## Timeframes
