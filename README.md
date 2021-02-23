@@ -57,8 +57,8 @@ https://wireframe.cc/wDWRV8
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 23| Project Approval | Incomplete
+|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|Feb 23| Project Approval | Complete
 |Feb 23| pseudo code /HTML setup / axios function setup and test | Incomplete
 |Feb 24| Button functionality / User input functionality | Incomplete
 |Feb 25| DOM elements appended / CSS styling Header/footer | Incomplete
