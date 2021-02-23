@@ -1,7 +1,7 @@
 # News Project
 
 #Project
-[deployed site]{}
+[deployed site]{https://github.com/StrangerLs/News-app}
 
 # Project Overview
 
