@@ -90,9 +90,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Html making | H | 2hr | blank | blank |
+| Js psuedo coding | H | 2.5hr | blank | blank |
+| media querys | H | 2hrs | blank | blank |
+| general styling | H | 5hr | blank | blank |
+| axios & API setup | H | 6hrs | blank | blank |
+| Linking dom elements | H | 4hrs | blank | blank |
+| Html making | H | 2.5hr | blank | blank |
+| appending items | H | 4hr | blank | blank |
+| post MVP | H | 8hr | blank | blank |
+| Total | H | 36hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
