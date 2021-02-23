@@ -57,10 +57,9 @@ https://wireframe.cc/wDWRV8
 |---|---| ---|
 |Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |Feb 23| Project Approval | Incomplete
-|Feb 23| Html setup/axios set up | Incomplete
+|Feb 23| HTML setup/axios set up | Incomplete
 |Feb 24| Pseudocode / actual code | Incomplete
-|Feb 24| finish functionality (Javasctipt) | Incomplete
-|Feb 25| Initial Clickable Model  | Incomplete
+|Feb 25| finish functionality (Javasctipt) | Incomplete
 |Feb 26| MVP | Incomplete
 |March 1| Presentations | Incomplete
 
@@ -73,16 +72,19 @@ https://lucid.app/lucidchart/invitations/accept/cb5ad854-eb3e-483f-8e07-7d86ccb4
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Html making | H | 2hr | blank | blank |
-| Js psuedo coding | H | 2.5hr | blank | blank |
-| media querys | H | 2hrs | blank | blank |
-| general styling | H | 5hr | blank | blank |
-| axios & API setup | H | 6hrs | blank | blank |
-| Linking dom elements | H | 4hrs | blank | blank |
-| Html making | H | 2.5hr | blank | blank |
-| appending items | H | 4hr | blank | blank |
-| post MVP | H | 8hr | blank | blank |
-| Total | H | 36hrs| 5hrs | 5hrs |
+| HTML making for app page| H | 2hr | blank | blank |
+| HTML for about me page | H | 1hrs | blank | blank |
+| JS psuedo coding | H | 3hr | blank | blank |
+| axios function | H | 4hrs | blank | blank |
+| API testing/Pathway verification(dev tools) | H | 2hrs | blank | blank |
+| Button/Search functionality within JS | H | 5hrs | blank | blank |
+| Appending DOM elements | H | 5hrs | blank | blank |
+| media querys | H | 2.5hrs | blank | blank |
+| CSS styling/header | H | 3hr | blank | blank |
+| CSS styling/searchbox buttons | H | 3hrs | blank | blank |
+| CSS styling/News article and link list | H | 4hrs | blank | blank |
+| CSS footer styling | H | 3hrs | blank | blank |
+| Total | H | 37.5hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 This is where I will include snippets of code I am proud of.
