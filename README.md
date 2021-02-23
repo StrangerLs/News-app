@@ -82,9 +82,9 @@ https://lucid.app/lucidchart/invitations/accept/cb5ad854-eb3e-483f-8e07-7d86ccb4
 | media querys | H | 2.5hrs | blank | blank |
 | CSS styling/header | H | 3hr | blank | blank |
 | CSS styling/searchbox buttons | H | 3hrs | blank | blank |
-| CSS styling/News article and link list | H | 4hrs | blank | blank |
-| CSS footer styling | H | 3hrs | blank | blank |
-| Total | H | 37.5hrs| 5hrs | 5hrs |
+| CSS styling/News article and link list | H | 2hrs | blank | blank |
+| CSS footer styling | H | 2hrs | blank | blank |
+| Total | H | 33.5hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 This is where I will include snippets of code I am proud of.
