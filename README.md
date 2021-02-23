@@ -70,8 +70,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |Feb 23| Project Approval | Incomplete
-|Feb 24| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Feb 23| Html setup/axios set up | Incomplete
 |Feb 24| Pseudocode / actual code | Incomplete
+|Feb 24| finish functionality (Javasctipt) | Incomplete
 |Feb 25| Initial Clickable Model  | Incomplete
 |Feb 26| MVP | Incomplete
 |March 1| Presentations | Incomplete
