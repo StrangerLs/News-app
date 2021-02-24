@@ -12,7 +12,7 @@ async function newsWorks(value) {
 
   try {
     let response = await axios.get(news);
-    // console.log(response.data.articles);
+    console.log(response.data.articles);
 
     for (let i = 0; i < response.data.articles.length; i++) {
       showNews(response.data.articles[i]);
@@ -30,7 +30,7 @@ async function newsWorks(value) {
 
 function showNews(data) {
   let articles = document.querySelector('.articles')
-  // let links = document.querySelector('links')
+  let links = document.querySelector('.links')
   const newData = `
   <li class="newLi">
     <h3>${data.title}</h3>
@@ -39,6 +39,12 @@ function showNews(data) {
     <p>${data.author}</p>
   </li>
   `
+  const newData2 = `
+  <li class="secondLi">
+    <p><a href="${data.url}" target="_blank"> Click Here to Read!</a></p>
+  </li>
+  `
+  links.insertAdjacentHTML('beforeend', newData2);
   articles.insertAdjacentHTML('beforeend', newData);
 };
 
