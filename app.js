@@ -48,15 +48,19 @@ function showNews(data) {
 let btn = document.querySelector('#push')
 btn.addEventListener('click', (e)=> {
   e.preventDefault();
+  removeNews()
   let input = document.querySelector('#input').value
   newsWorks(input)
 })
 
 
 // removing info
-// removeNews() {
-
-// };
+function removeNews() {
+  const remove = document.querySelector('.articles');
+  while (remove.lastChild) {
+    remove.removeChild(remove.lastChild)
+  }
+};
 
 
 
