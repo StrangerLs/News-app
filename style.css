@@ -7,6 +7,21 @@ header {
   display: inline-flex;
   color: whitesmoke;
   background-image: url('https://images.unsplash.com/photo-1589519160142-7d1a51b43eaf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8Z2xvYmV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+
+}
+
+#about {
+  padding-left: 500px;
+  padding-right: 8px;
+}
+
+#slogan {
+  text-align: center;
+}
+
+.inputton {
+  display: block;
+  text-align: center;
 }
 
 
