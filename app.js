@@ -12,7 +12,7 @@ async function newsWorks(value) {
 
   try {
     let response = await axios.get(news);
-    console.log(response.data.articles);
+    // console.log(response.data.articles);
 
     for (let i = 0; i < response.data.articles.length; i++) {
       console.log(response.data.articles[i]);
@@ -22,18 +22,22 @@ async function newsWorks(value) {
     console.error(err);
   }
 };
-newsWorks('tesla')
 
 
-// get user input from input box
-// function showNews(data) {
 
-// };
+
+// making each article a list element. need to add image to each li element and append
+
 
 
 
 // event handler function
-
+let btn = document.querySelector('#push')
+btn.addEventListener('click', (e)=> {
+  e.preventDefault();
+  let input = document.querySelector('#input').value
+  newsWorks(input)
+})
 
 
 // removing info
