@@ -66,6 +66,10 @@ function removeNews() {
   while (remove.lastChild) {
     remove.removeChild(remove.lastChild)
   }
+  const removing = document.querySelector('.links');
+  while (removing.lastChild) {
+    removing.removeChild(removing.lastChild)
+  }
 };
 
 
