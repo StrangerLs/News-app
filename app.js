@@ -15,7 +15,7 @@ async function newsWorks(value) {
     // console.log(response.data.articles);
 
     for (let i = 0; i < response.data.articles.length; i++) {
-      console.log(response.data.articles[i]);
+      showNews(response.data.articles[i]);
     }
     return response;
   } catch (err) {
@@ -28,6 +28,19 @@ async function newsWorks(value) {
 
 // making each article a list element. need to add image to each li element and append
 
+function showNews(data) {
+  let articles = document.querySelector('.articles')
+  // let links = document.querySelector('links')
+  const newData = `
+  <li class="newLi">
+    <h3>${data.title}</h3>
+    <img id="image" src="${data.urlToImage}"/>
+    <h4>${data.description}</h4>
+    <p>${data.author}</p>
+  </li>
+  `
+  articles.insertAdjacentHTML('beforeend', newData);
+};
 
 
 
