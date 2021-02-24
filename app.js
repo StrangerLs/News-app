@@ -50,6 +50,7 @@ function showNews(data) {
 
 
 
+
 // event handler function
 let btn = document.querySelector('#push')
 btn.addEventListener('click', (e)=> {

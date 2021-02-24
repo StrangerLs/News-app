@@ -27,12 +27,21 @@ header {
 
 .rslts {
   display: inline-flex;
-  margin-left: 100px;
+  margin-left: 110px;
 }
 
 #lnks {
   padding-left: 500px;
-
+  display: inline-flex;
 }
 
 
+
+.newLi {
+  border: 2px solid black;
+  width: 400px;
+  height: 450px;
+}
+.links {
+  margin-left: 650px;
+}
