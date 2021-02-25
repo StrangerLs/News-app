@@ -1,8 +1,22 @@
-
+body {
+  display: flex;
+  flex-direction: column;
+ height: 100%;
+ width: auto;
+ min-height: 100%;
+ background-image: url('https://images.unsplash.com/photo-1513628253939-010e64ac66cd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHNwYWNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
 
 #image {
-  width: 100%;
+  display: flex;
+  
+  width: 50%;
   height: auto;
+  justify-content: flex-start;
+  align-content: left;
+  flex-flow: column wrap;
 }
 
 header {
@@ -19,11 +33,13 @@ header {
 #slogan {
   display: flex;
   justify-content: center;
+  color: bisque;
 }
 
 .inputton {
   display: block;
   text-align: center;
+  color: bisque;
 }
 
 
@@ -36,16 +52,40 @@ header {
   width: auto;
   justify-content: space-between;
   justify-content: space-around;
-
+  color: bisque;
 }
 
-
- .newLi {
-   display: block;
-  border: 2px solid black;
-  width: 400px;
-  height: 450px;
-} 
-.links {
-  margin-left: 650px;
+.urls {
+  display: inline-flex;
+  height: 100%;
+  width: auto;
+  display: flex;
+ 
+ flex-flow: column wrap;
+ color: bisque;
+ 
+ 
 }
+
+#webpage {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  width: auto;
+  flex-flow: wrap row;
+  color: ghostwhite;
+ 
+  
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  background-image: url('https://images.unsplash.com/photo-1589519160142-7d1a51b43eaf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8Z2xvYmV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  color: bisque;
+}
+

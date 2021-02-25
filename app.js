@@ -29,15 +29,20 @@ async function newsWorks(value) {
 // making each article a list element. need to add image to each li element and append
 
 function showNews(data) {
-  let articles = document.querySelector('#urls')
+  let articles = document.querySelector('.urls')
   
   const newData = `
   
     <h3>${data.title}</h3>
+    <h2><a href="${data.url}" target="_blank" id="webpage"> Click Here to Read!📰 </a></h2>
     <img id="image" src="${data.urlToImage}"/>
+    
     <h4>${data.description}</h4>
     <p>${data.author}</p>
-    <a href="${data.url}" target="_blank"> Click Here to Read!</a>
+  
+  
+    
+  
   `
   articles.insertAdjacentHTML('beforeend', newData);
 };
@@ -57,7 +62,7 @@ btn.addEventListener('submit', (e)=> {
 
 // removing info
 function removeNews() {
-  const remove = document.querySelector('#urls');
+  const remove = document.querySelector('.urls');
   while (remove.lastChild) {
     remove.removeChild(remove.lastChild)
   }
