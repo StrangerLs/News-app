@@ -32,20 +32,22 @@ function showNews(data) {
   let articles = document.querySelector('.urls')
   
   const newData = `
-  
-    <h3>${data.title}</h3>
-    <h2><a href="${data.url}" target="_blank" id="webpage"> Click Here to Read!📰 </a></h2>
+    <h2></h2>
+    <h3><a href="${data.url}" target="_blank" id="webpage">${data.title}</a></h3>
+    <p>${data.author}</p>
     <img id="image" src="${data.urlToImage}"/>
     
-    <h4>${data.description}</h4>
-    <p>${data.author}</p>
-  
+    <h4 id="desc">${data.description}</h4>
+    
+    
   
     
   
   `
   articles.insertAdjacentHTML('beforeend', newData);
 };
+
+
 
 
 
