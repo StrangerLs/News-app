@@ -4,7 +4,7 @@ body {
  height: 100%;
  width: auto;
  min-height: 100%;
- background-image: url('https://images.unsplash.com/photo-1513628253939-010e64ac66cd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHNwYWNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+ background-color: rgb(128, 128, 128);
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -88,3 +88,12 @@ footer {
   color: bisque;
 }
 
+@media screen and (max-width: 350px) {
+  footer {
+    visibility: collapse;
+  }
+  .rslts {
+    visibility: hidden;
+  }
+}
+  

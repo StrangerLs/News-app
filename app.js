@@ -38,11 +38,6 @@ function showNews(data) {
     <img id="image" src="${data.urlToImage}"/>
     
     <h4 id="desc">${data.description}</h4>
-    
-    
-  
-    
-  
   `
   articles.insertAdjacentHTML('beforeend', newData);
 };
