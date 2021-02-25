@@ -1,5 +1,5 @@
 // Endpoint Data
-const DOMAIN = 'http://cors-anywhere.herokuapp.com/http://newsapi.org/';
+const DOMAIN = 'http://newsapi.org/';
 const apiKey = '590e2f3ad3a7403499ccbcd8a5986d5f';
 const standardUrl = `${DOMAIN}v2/top-headlines?apiKey=${apiKey}`
 
@@ -29,22 +29,16 @@ async function newsWorks(value) {
 // making each article a list element. need to add image to each li element and append
 
 function showNews(data) {
-  let articles = document.querySelector('.articles')
-  let links = document.querySelector('.links')
+  let articles = document.querySelector('#urls')
+  
   const newData = `
-  <li class="newLi">
+  
     <h3>${data.title}</h3>
     <img id="image" src="${data.urlToImage}"/>
     <h4>${data.description}</h4>
     <p>${data.author}</p>
-  </li>
+    <a href="${data.url}" target="_blank"> Click Here to Read!</a>
   `
-  const newData2 = `
-  <li class="secondLi">
-    <p><a href="${data.url}" target="_blank"> Click Here to Read!</a></p>
-  </li>
-  `
-  links.insertAdjacentHTML('beforeend', newData2);
   articles.insertAdjacentHTML('beforeend', newData);
 };
 
@@ -53,7 +47,7 @@ function showNews(data) {
 
 // event handler function
 let btn = document.querySelector('#push')
-btn.addEventListener('click', (e)=> {
+btn.addEventListener('submit', (e)=> {
   e.preventDefault();
   removeNews()
   let input = document.querySelector('#input').value
@@ -63,14 +57,11 @@ btn.addEventListener('click', (e)=> {
 
 // removing info
 function removeNews() {
-  const remove = document.querySelector('.articles');
+  const remove = document.querySelector('#urls');
   while (remove.lastChild) {
     remove.removeChild(remove.lastChild)
   }
-  const removing = document.querySelector('.links');
-  while (removing.lastChild) {
-    removing.removeChild(removing.lastChild)
-  }
+
 };
 
 
