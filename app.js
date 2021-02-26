@@ -17,8 +17,7 @@ async function newsWorks(value) {
     for (let i = 0; i < response.data.articles.length; i++) {
       
       showNews(response.data.articles[i]);
-      // noData(response.data.articles[i]);
-      console.log(response.data.articles[i]);
+    
     }
     
     return response;
@@ -49,21 +48,6 @@ function showNews(data) {
 };
 
 
-
-// function noData(cukes) {
-//   let image = document.querySelector('#image')
-//   let author = document.querySelector('#author')
-//   if (cukes.urlToImage === null) {
-//     image.outerHTML = '<h4>No IMG Found</h4>';
-//   } 
-//   if (cukes.author === null) {
-//     author.innerHTML = 'No Author Found';
-//   }
-//   console.log(cukes.urlToImage);
-// }
-
-
-
 let btn = document.querySelector('#push')
 btn.addEventListener('submit', (e)=> {
   e.preventDefault();
@@ -80,7 +64,6 @@ function removeNews() {
   while (remove.lastChild) {
     remove.removeChild(remove.lastChild)
   }
-
 };
 
 
