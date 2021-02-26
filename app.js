@@ -7,16 +7,17 @@ const standardUrl = `${DOMAIN}v2/top-headlines?apiKey=${apiKey}`
 
 
 async function newsWorks(value) {
-  let news = `${standardUrl}&q=${value}`;
+  let news = `${standardUrl}&q=${value}&from=`;
   
 
   try {
     let response = await axios.get(news);
     
-
     for (let i = 0; i < response.data.articles.length; i++) {
       showNews(response.data.articles[i]);
+      
     }
+    
     return response;
   } catch (err) {
     console.error(err);
@@ -31,14 +32,17 @@ async function newsWorks(value) {
 function showNews(data) {
   let articles = document.querySelector('.urls')
   
+
+
   const newData = `
     <h2></h2>
     <h3><a href="${data.url}" target="_blank" id="webpage">${data.title}</a></h3>
     <p>${data.author}</p>
     <img id="image" src="${data.urlToImage}"/>
-    
     <h4 id="desc">${data.description}</h4>
+    <hr/>
   `
+  
   articles.insertAdjacentHTML('beforeend', newData);
 };
 
@@ -68,7 +72,7 @@ function removeNews() {
 
 
 let footer = document.querySelector('footer')
-
+// resource https://javascriptinfo.com/view/4856994/how-to-make-a-div-appear-and-disappear-on-scroll
 $(window).scroll(function() {
   let currentHeight = $(window).scrollTop();
   if (currentHeight > 200) {

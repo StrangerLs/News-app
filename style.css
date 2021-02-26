@@ -70,6 +70,11 @@ header {
   padding-bottom: auto;
 }
 
+hr {
+  width: 100%;
+  border: black 2px solid;
+}
+
 
 
 #desc {
@@ -92,9 +97,9 @@ footer {
   margin-top: -100px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 475px) {
   footer {
-    visibility: collapse;
+    visibility: hidden;
   }
   .rslts {
     visibility: hidden;
