@@ -8,6 +8,14 @@ body {
  
  justify-content: space-between;
 }
+#btnC,
+#btn {
+  color: yellow;
+  background: transparent;
+  border: 2px solid yellow;
+  border-radius: 6px;
+
+}
 
 #image {
   display: flex;

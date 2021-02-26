@@ -7,15 +7,18 @@ const standardUrl = `${DOMAIN}v2/top-headlines?apiKey=${apiKey}`
 
 
 async function newsWorks(value) {
-  let news = `${standardUrl}&q=${value}&from=`;
-  
+  let drop = document.querySelector('#drop').value
+  let news = `${standardUrl}&q=${value}&category=${drop}`;
+  console.log(drop);
 
   try {
     let response = await axios.get(news);
     
     for (let i = 0; i < response.data.articles.length; i++) {
-      showNews(response.data.articles[i]);
       
+      showNews(response.data.articles[i]);
+      // noData(response.data.articles[i]);
+      console.log(response.data.articles[i]);
     }
     
     return response;
@@ -35,9 +38,8 @@ function showNews(data) {
 
 
   const newData = `
-    <h2></h2>
     <h3><a href="${data.url}" target="_blank" id="webpage">${data.title}</a></h3>
-    <p>${data.author}</p>
+    <p id="author">${data.author}</p>
     <img id="image" src="${data.urlToImage}"/>
     <h4 id="desc">${data.description}</h4>
     <hr/>
@@ -48,7 +50,17 @@ function showNews(data) {
 
 
 
-
+// function noData(cukes) {
+//   let image = document.querySelector('#image')
+//   let author = document.querySelector('#author')
+//   if (cukes.urlToImage === null) {
+//     image.outerHTML = '<h4>No IMG Found</h4>';
+//   } 
+//   if (cukes.author === null) {
+//     author.innerHTML = 'No Author Found';
+//   }
+//   console.log(cukes.urlToImage);
+// }
 
 
 
@@ -59,6 +71,7 @@ btn.addEventListener('submit', (e)=> {
   let input = document.querySelector('#input').value
   newsWorks(input)
 })
+
 
 
 
