@@ -67,4 +67,14 @@ function removeNews() {
 };
 
 
+let footer = document.querySelector('footer')
 
+$(window).scroll(function() {
+  let currentHeight = $(window).scrollTop();
+  if (currentHeight > 200) {
+    footer.style.visibility = 'hidden';
+  }
+  else {
+    footer.style.visibility = 'visible';
+  }
+});

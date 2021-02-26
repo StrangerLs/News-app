@@ -5,6 +5,7 @@ body {
  width: auto;
  min-height: 100%;
  background-color: rgb(128, 128, 128);
+ 
  justify-content: space-between;
 }
 
@@ -56,17 +57,17 @@ header {
 }
 
 .urls {
-  display: inline-flex;
+  display: flex;
   height: auto;
-  width: auto;
+  width: 100%;
   flex-flow: column wrap;
   color: bisque;
   float: left;
   border: black 2px solid;
   background-color: cadetblue;
   text-align: center;
-  
-  padding-bottom: 50px;
+  justify-content: space-around;
+  padding-bottom: auto;
 }
 
 
