@@ -29,12 +29,12 @@ async function newsWorks(value) {
 
 function showNews(data) {
   let articles = document.querySelector('.urls')
-  
+  // resource https://www.youtube.com/watch?v=v2tJ3nzXh8I&t=41s
   const newData = `
-    <h3><a href="${data.url}" target="_blank" id="webpage">${data.title}</a></h3>
-    <p id="author">${data.author}</p>
-    <img id="image" src="${data.urlToImage}"/>
-    <h4 id="desc">${data.description}</h4>
+    <h3><a href="${data.url ?? ""}" target="_blank" id="webpage">${data.title ?? "No Title"}</a></h3>
+    <p id="author">${data.author ?? "No author"}</p>
+    <img id="image" src="${data.urlToImage ?? "./no_image.jpeg"}"/>
+    <h4 id="desc">${data.description ?? "No Description Found"}</h4>
     <hr/>
   `
   articles.insertAdjacentHTML('beforeend', newData);
