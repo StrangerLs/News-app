@@ -60,10 +60,10 @@ https://wireframe.cc/wDWRV8
 |Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Feb 23| Project Approval | Complete
 |Feb 23| pseudo code /HTML setup / axios function setup and test | Complete
-|Feb 24| Button functionality / User input functionality | Incomplete
-|Feb 25| DOM elements appended / CSS styling Header/footer | Incomplete
-|Feb 26| CSS styling list elements / MVP| Incomplete
-|March 1| Presentations | Incomplete
+|Feb 24| Button functionality / User input functionality | Complete
+|Feb 25| DOM elements appended / CSS styling Header/footer | Complete
+|Feb 26| CSS styling list elements / MVP| Complete
+|March 1| Presentations | Complete
 
 ## Priority Matrix
 
@@ -77,21 +77,31 @@ https://lucid.app/lucidchart/invitations/accept/cb5ad854-eb3e-483f-8e07-7d86ccb4
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | HTML making for app page| H | 2hr | 2hrs | 2hrs |
-| HTML for about me page | H | 1hrs | blank | blank |
-| JS psuedo coding | H | 3hr | blank | blank |
+| JS psuedo coding | H | 3hr | 2.5 | 2.5|
 | axios function | H | 4hrs | 3.5hrs | 3.5hrs |
-| API testing/Pathway verification(dev tools) | H | 2hrs | blank | blank |
-| Button/Search functionality within JS | H | 5hrs | blank | blank |
-| Appending DOM elements | H | 5hrs | blank | blank |
-| media querys | H | 2.5hrs | blank | blank |
-| CSS styling/header | H | 3hr | blank | blank |
-| CSS styling/searchbox buttons | H | 3hrs | blank | blank |
-| CSS styling/News article and link list | H | 2hrs | blank | blank |
-| CSS footer styling | H | 2hrs | blank | blank |
-| Total | H | 34.5hrs| blank | blank |
+| API testing/Pathway verification(dev tools) | H | 2hrs | 2hrs | 2hrs |
+| Button/Search functionality within JS | H | 5hrs | 4hrs | 4hrs |
+| Appending DOM elements | H | 5hrs | 6hrs | 6hrs |
+| media querys | H | 2.5hrs | 2hrs | 2hrs |
+| CSS styling/header | H | 3hr | 3hrs | 3hrs |
+| CSS styling/searchbox buttons | H | 3hrs | 2.5hrs | 2.5hrs |
+| CSS styling/News article and link list | H | 2hrs | 3.5hrs | 3.5hrs |
+| CSS footer styling | H | 2hrs | 3hrs | 3hrs |
+| Total | H | 34.5hrs| 34hrs | 34hrs |
 
 ## Code Snippet
-This is where I will include snippets of code I am proud of.
+Use of jquery to remove footer past a certain scroll point.
+``` 
+$(window).scroll(function () {
+  let currentHeight = $(window).scrollTop();
+  if (currentHeight > 200) {
+    footer.style.visibility = 'hidden';
+  }
+  else {
+    footer.style.visibility = 'visible';
+  }
+});
+```
 
 ## Change Log
-This section will log any changed that deviate from initial app layout, schedule, or functionality.
+Changed layout to a single column list.
