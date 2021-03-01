@@ -13,7 +13,9 @@ async function newsWorks(value) {
 
 
   try {
+    
     let response = await axios.get(news);
+
 
     for (let i = 0; i < response.data.articles.length; i++) {
 

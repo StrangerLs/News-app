@@ -11,6 +11,8 @@ Moschetti News Page!
 
 This app will pull information from News API and return and appenend titles, images, and links, from multiple news sources around the world based on users input via a list. ie... if you type in donald trump it will pull up top news articles about him from around the world. The app will then append the news articles to the DOM and enable you to open them within the same page. 
 
+In order to use this app you must download and activate moesif cors.
+[moesif](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc?hl=en-US)
 ## API and Data Sample 
 
 https://newsapi.org/
