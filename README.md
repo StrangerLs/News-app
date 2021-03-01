@@ -1,5 +1,5 @@
 # News App
-
+https://strangerls.github.io/News-app/
 # Overview
 
 ## Name
@@ -92,14 +92,14 @@ https://lucid.app/lucidchart/invitations/accept/cb5ad854-eb3e-483f-8e07-7d86ccb4
 | Total | H | 34.5hrs| 34hrs | 34hrs |
 
 ## Code Snippet
-Use of jquery to remove footer past a certain scroll point.
+remove footer past a certain scroll point.
 ``` 
-$(window).scroll(function () {
-  let currentHeight = $(window).scrollTop();
-  if (currentHeight > 200) {
+let footer = document.querySelector('footer')
+window.addEventListener('scroll', () => {
+  
+  if (window.scrollY > 200) {
     footer.style.visibility = 'hidden';
-  }
-  else {
+  } else {
     footer.style.visibility = 'visible';
   }
 });
