@@ -60,16 +60,14 @@ function removeNews() {
   }
 };
 
-// let body = document.querySelector('body')
+// removes footer as you scroll
 let footer = document.querySelector('footer')
 window.addEventListener('scroll', () => {
-  console.log('before', window.scrollY);
+  
   if (window.scrollY > 200) {
-    console.log('object');
     footer.style.visibility = 'hidden';
-    
   } else {
     footer.style.visibility = 'visible';
   }
-})
+});
 
