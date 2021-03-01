@@ -60,15 +60,16 @@ function removeNews() {
   }
 };
 
-// removes the footer from page past a certain scroll point
-// let footer = document.querySelector('footer')
-// // resource https://javascriptinfo.com/view/4856994/how-to-make-a-div-appear-and-disappear-on-scroll
-// $(window).scroll(function () {
-//   let currentHeight = $(window).scrollTop();
-//   if (currentHeight > 200) {
-//     footer.style.visibility = 'hidden';
-//   }
-//   else {
-//     footer.style.visibility = 'visible';
-//   }
-// });
+// let body = document.querySelector('body')
+let footer = document.querySelector('footer')
+window.addEventListener('scroll', () => {
+  console.log('before', window.scrollY);
+  if (window.scrollY > 200) {
+    console.log('object');
+    footer.style.visibility = 'hidden';
+    
+  } else {
+    footer.style.visibility = 'visible';
+  }
+})
+
