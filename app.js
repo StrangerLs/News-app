@@ -1,6 +1,6 @@
 // containers for API get info
 
-const DOMAIN = 'https://newsapi.org/';
+const DOMAIN = 'http://newsapi.org/';
 const apiKey = '590e2f3ad3a7403499ccbcd8a5986d5f';
 const standardUrl = `${DOMAIN}v2/top-headlines?apiKey=${apiKey}`
 
